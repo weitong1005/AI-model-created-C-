@@ -1,0 +1,3 @@
+/home/bm/CLionProjects/AI3700/build/CMakeFiles/AI3700.dir
+/home/bm/CLionProjects/AI3700/build/CMakeFiles/edit_cache.dir
+/home/bm/CLionProjects/AI3700/build/CMakeFiles/rebuild_cache.dir

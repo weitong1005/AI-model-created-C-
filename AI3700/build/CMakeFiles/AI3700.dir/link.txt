@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/AI3700.dir/main.cpp.o CMakeFiles/AI3700.dir/src/file_utils.cpp.o CMakeFiles/AI3700.dir/src/hanzi_encoder.cpp.o CMakeFiles/AI3700.dir/src/matrix.cpp.o CMakeFiles/AI3700.dir/src/rnn_model.cpp.o CMakeFiles/AI3700.dir/src/start_model.cpp.o -o AI3700
