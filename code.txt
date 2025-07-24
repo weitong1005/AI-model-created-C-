@@ -1,0 +1,843 @@
+"
+AI3700/
+├── CMakeLists.txt
+├── code.txt
+├── data
+│   └── hanzi.txt
+├── main.cpp
+├── model
+└── src
+    ├── file_utils.cpp
+    ├── file_utils.h
+    ├── hanzi_encoder.cpp
+    ├── hanzi_encoder.h
+    ├── matrix.cpp
+    ├── matrix.h
+    ├── rnn_model.cpp
+    ├── rnn_model.h
+    ├── start_model.cpp
+    └── start_model.h
+"
+data/hanzi.txt
+"
+a: 阿啊哎哀唉埃挨癌矮蔼爱碍安岸按案暗昂凹熬傲奥澳腌吖锕嗄
+ba: 八巴扒吧疤拔跋把坝爸罢霸掰白百柏摆败拜斑班搬板版办半伴扮瓣邦帮膀傍棒包胞雹宝饱保堡报抱暴爆杯悲碑北贝备背倍被辈奔本笨崩绷蹦逼鼻比彼笔鄙币必毕闭庇毙秘弊碧蔽壁避臂边编鞭扁便变遍辨辩辫标彪膘表憋别宾滨冰兵丙柄饼并病拨波玻剥脖菠伯驳泊博搏膊薄卜补捕不布步怖部魃粑笆钯
+cai: 猜才材财裁采彩睬踩菜参餐残蚕惭惨灿仓苍舱藏操糙槽草册侧厕测策层曾叉插查察茬茶搽差拆柴豺搀掺馋缠蝉产铲阐颤昌长肠尝常偿厂场敞畅倡唱抄钞超巢朝嘲潮吵炒车扯彻撤尘臣沉辰陈晨闯衬称趁撑成呈诚承城乘惩程澄橙逞秤吃痴持池迟驰耻齿斥赤翅充冲虫崇宠抽仇绸愁稠筹酬丑臭出初除厨锄础储楚处触川穿传船喘串疮窗床创吹炊垂锤春纯唇淳醇蠢戳绰词祠慈辞磁雌此次刺赐匆葱聪从丛凑粗促醋簇窜篡催摧脆粹翠村存寸搓措错偲骖粲
+da: 搭达答打大呆歹代带待怠贷袋逮戴丹单担耽胆旦但诞弹淡蛋当挡党荡档刀叨导岛倒蹈到悼盗道稻得德的灯登等瞪凳低堤滴迪敌笛底抵地弟帝递第颠典点电佃店垫淀殿刁叼雕吊钓调掉爹跌叠蝶丁叮盯钉顶订定丢东冬董懂动冻栋洞都兜抖斗陡豆逗都督毒读独堵赌杜肚度渡端短段断缎煅锻堆队对兑吨敦蹲盾顿多夺朵躲耷哒嗒鞑
+e: 俄鹅额恶饿遏恩儿而尔耳二贰婀轭迩
+fa: 发乏伐罚阀筏法帆番翻凡烦繁反返犯饭泛范贩方坊芳防妨房仿访纺放飞非啡肥匪诽吠肺废沸费分芬吩纷氛坟焚粉份奋愤粪丰风封疯峰锋蜂逢缝讽凤奉佛否夫敷肤伏扶拂服俘浮符幅福抚甫府斧俯辅腐父付负妇附咐复赴副傅富腹覆砝
+ga: 尬该改盖概钙干甘杆肝竿秆赶敢感干冈刚纲缸钢岗港杠高膏篙糕搞稿告哥歌搁割革葛格隔个各给根跟更耕工弓公功攻供宫恭躬巩拱共贡勾沟钩狗构购够估咕孤姑古谷股骨鼓固故顾雇瓜刮挂乖拐怪关观官冠棺馆管贯惯灌罐光广归龟规闺轨鬼柜贵桂跪滚棍国果过尕旮
+ha: 哈孩海害酣含函寒喊罕汉汗旱悍焊憾撼行航巷毫豪好号浩耗呵喝合何和河核荷盒贺黑嘿痕很狠恨哼恒横衡轰哄烘红宏洪虹鸿侯喉猴吼后厚候乎呼忽狐胡壶湖糊虎互户护花华哗滑猾化划画话怀槐坏欢还环缓幻唤换患焕疾豢慌皇黄煌晃谎灰挥恢辉回毁悔汇会讳绘贿秽惠慧昏婚浑魂混豁活火伙或货获祸惑铪氦劾
+ji: 击饥圾机肌鸡迹积基绩激及吉级即极急疾集籍几己挤脊计记纪忌技际剂季既济继寄寂加夹佳家嘉甲钾价驾架假嫁稼奸尖坚间肩艰兼监煎拣俭柬捡检减剪简见件建剑荐贱健舰渐溅鉴键箭江将姜浆僵疆讲奖匠降酱交郊浇骄娇胶教焦嚼角狡脚搅缴叫轿较觉阶皆接揭街节劫杰洁结捷截竭姐解介戒届界借巾斤今金津筋仅紧锦谨尽劲近进晋浸禁京经茎惊晶睛精井颈景警净径竞竟敬境静镜纠究九久酒旧救就舅居拘鞠局菊橘举矩句巨拒具剧惧据距锯聚捐卷倦绢决绝觉掘嚼军君均菌俊峻骏丌乩剞掎彐麂
+ka: 咖卡开揩凯慨刊堪砍看康慷糠扛抗炕考烤靠科棵颗壳咳可渴克刻客课肯垦恳坑空孔恐控抠口扣枯哭苦库裤酷夸跨挎块快宽款匡筐狂况矿框旷亏窥葵魁愧溃昆困括阔咔佧胩
+la: 垃拉啦喇腊蜡辣来莱赖蓝栏拦篮览懒烂滥郎狼廊朗浪捞劳牢老佬姥涝乐勒雷垒泪类累冷厘梨离璃黎礼李里理鲤力历厉立丽利励例隶俩连帘怜莲联廉脸练炼恋链良凉梁粮两亮谅辆量辽疗聊僚了料列劣烈猎裂邻林临淋磷灵铃陵零龄领令另溜刘留流硫榴柳六龙聋隆垄拢笼弄楼搂漏露卢芦炉鲁陆录鹿碌路驴旅屡律虑绿滤剌邋旯
+ma: 妈麻马玛码蚂骂吗埋买麦卖迈脉瞒满曼慢漫忙芒盲茫猫毛矛茅茂冒贸帽貌么没眉梅媒煤霉每美妹门闷们萌盟猛梦眯弥迷谜米秘觅密蜜眠绵棉免勉面苗描瞄秒妙庙灭民敏名明鸣命谬摸模膜摩磨抹末没莫墨默谋某母亩牡姆拇木目牧墓幕慕暮穆祃犸杩
+na: 拿哪那纳钠乃奶耐男南难囊挠恼脑闹呢内嫩能妮泥你拟逆年念娘酿鸟尿捏您宁凝牛扭纽农浓弄奴努怒女暖虐挪诺捺肭衲
+ou: 欧鸥殴偶藕呕沤耦怄瓯
+pa: 趴爬帕怕拍排牌派攀盘判叛盼乓庞旁胖抛炮袍跑泡呸陪培赔佩配喷盆砰抨烹朋棚蓬硼鹏捧碰批披劈皮疲匹痞僻屁譬片偏篇骗飘漂票撇拼贫频品聘乒平评凭苹瓶萍坡泼婆迫破魄剖扑铺仆葡朴普谱瀑筢
+qi: 七妻凄戚期欺漆齐其奇歧骑棋旗乞企岂启起气迄弃汽契砌器恰洽千迁牵铅谦签前钱钳潜浅遣欠款枪腔强墙抢悄敲锹桥瞧巧切茄且窃亲侵芹琴禽勤青氢轻倾清情晴顷请庆穷丘秋求球区曲驱屈趋渠取娶去趣圈权全泉拳犬劝券缺却雀确鹊俟汔碛葺
+ran: 然燃染嚷壤让饶扰绕惹热人仁忍认任扔仍日绒荣容熔融冗柔揉肉如儒乳辱入软锐瑞润若弱苒蚺髯
+sa: 撒洒萨塞赛三散桑嗓丧搔骚扫嫂色涩森僧杀沙纱傻啥筛晒山删衫闪陕扇善伤商裳晌赏上尚捎梢烧稍勺少哨舌蛇舍设社射涉摄申伸身深神审婶肾甚渗慎升生声性牲胜绳省圣盛剩尸失师诗施狮湿十石时识实拾蚀食史使始驶士氏世示市式似事势侍饰试视柿是适室逝释收手守首寿受兽售授瘦书叔殊梳疏舒输蔬熟暑属鼠数术束述树竖恕刷衰摔甩帅栓双霜爽谁水税睡顺说司丝私思斯撕死四寺似饲肆松宋送诵搜艘苏俗诉肃素速宿塑酸蒜算虽随岁碎穗孙损笋缩所索锁卅挲脎
+ta: 他它她塌塔踏台抬太态泰贪摊滩坛谈痰潭坦叹炭探叹汤唐堂塘膛糖倘躺趟涛掏滔逃桃陶淘讨套特藤腾疼梯踢啼提题蹄体替天添田甜填挑条跳贴铁厅听烃廷亭庭停挺艇通同铜童统痛偷头投透凸秃突图徒途涂屠土吐兔团推腿退吞屯托拖脱驼妥拓唾溻獭鳎
+wa: 挖哇蛙娃瓦歪外弯湾丸完玩顽挽晚碗万汪亡王网往忘旺望危威微为围违唯维伟韦伪尾纬委萎卫未位味畏胃喂慰温文纹闻蚊稳问翁嗡窝我沃卧握乌污屋无吴吾五午伍武侮舞务物误悟雾腽娲畖
+xi: 夕西吸希昔析息牺悉惜稀溪锡熄熙蜥嘻膝习席袭媳洗喜戏系细隙虾瞎峡狭霞下夏吓仙先纤掀鲜闲弦咸衔嫌显险县现限线宪陷馅羡献乡相香厢湘箱详祥翔享响想向巷项象像橡削消宵萧销小晓孝校笑效些歇协邪胁斜谐携鞋写泄泻卸屑械谢心辛欣新薪信兴星腥刑行形型醒杏姓幸性兄凶胸匈雄熊休修羞朽秀绣袖须虚需徐许序叙畜绪续酗蓄宣悬旋玄选穴学雪血勋寻巡询循训讯迅葸舄禊
+ya: 压押鸦鸭牙芽崖哑亚讶咽烟淹延严言岩沿炎研盐颜檐衍掩眼演厌宴艳验焰雁燕央殃秧扬羊阳杨洋仰养氧痒样腰邀摇遥咬药要耀爷也冶野业叶页夜液一伊衣医依仪夷宜姨移遗疑乙已以矣蚁倚椅义亿忆艺议亦异役抑译易疫益谊意溢毅翼因阴音姻银引饮隐印应英婴樱鹰迎盈营蝇赢影映硬哟拥佣永咏泳勇用优忧幽悠尤由邮犹油游友有又右幼诱于予余鱼娱渔愉愚与宇羽雨语玉育郁狱浴预域欲遇御裕愈誉冤元员园原圆援缘源远怨院愿曰约月悦阅跃越云匀允运孕蚜睚痖
+za: 杂灾栽宰载再在咱攒暂赞赃脏葬遭糟早枣澡藻灶皂造噪燥躁则择泽责贼怎增赠渣扎轧眨炸摘宅窄债沾粘展占战站张章涨掌丈仗帐胀障招找召兆赵照遮折哲者这浙珍真诊阵振镇震争征挣睁蒸整正证郑政症之支汁芝枝知肢织脂蜘执直值职植殖止只旨址纸指趾至志制帜治质秩致智置中忠终钟肿种仲众重州舟周洲粥轴宙昼皱骤朱珠株诸猪蛛竹烛逐主属煮嘱住助注贮驻柱祝著筑抓爪拽专砖转赚庄装壮状撞追准捉桌着仔兹姿资滋籽子紫字自宗综棕踪总纵走奏租足族阻组祖钻嘴最罪醉尊遵昨左作坐座做匝拶咂
+
+# 补充汉字以满足3700个
+beng: 崩绷泵蹦迸甭嘣
+...................................
+"
+
+CMakeLists.txt
+"
+cmake_minimum_required(VERSION 3.10)
+project(AI3700)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 确保中文正常处理
+add_compile_options(-finput-charset=UTF-8)
+
+include_directories(src)
+
+add_executable(AI3700
+        main.cpp
+        src/hanzi_encoder.cpp
+        src/file_utils.cpp
+        src/matrix.cpp
+        src/matrix.h
+        src/rnn_model.cpp
+        src/rnn_model.h
+        src/start_model.cpp
+        src/start_model.h
+)
+
+# 自动复制 hanzi.txt 到构建目录
+add_custom_command(
+        TARGET AI3700 POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        ${CMAKE_SOURCE_DIR}/data/hanzi.txt
+        $<TARGET_FILE_DIR:AI3700>
+)
+
+# 针对不同平台的特定设置
+if(WIN32)
+    # Windows 特定设置
+    target_compile_definitions(AI3700 PRIVATE _CRT_SECURE_NO_WARNINGS)
+elseif(UNIX)
+    # Linux 特定设置
+    target_compile_options(AI3700 PRIVATE -Wall -Wextra)
+endif()
+"
+file_utils.h
+"
+#ifndef AI3700_FILE_UTILS_H
+#define AI3700_FILE_UTILS_H
+
+#include "hanzi_encoder.h"
+#include <string>
+
+class FileUtils {
+public:
+    static bool generateDataFiles(const HanziEncoder& encoder,
+                                  const std::string& dataFile = "hanzi_data.bin",
+                                  const std::string& codeFile = "hanzi_codes.bin");
+
+    static bool loadFromDataFiles(HanziEncoder& encoder,
+                                  const std::string& dataFile = "hanzi_data.bin",
+                                  const std::string& codeFile = "hanzi_codes.bin");
+};
+
+#endif
+"
+file_utils.cpp
+"
+#include "file_utils.h"
+#include <fstream>
+
+bool FileUtils::generateDataFiles(const HanziEncoder& encoder,
+                                  const std::string& dataFile,
+                                  const std::string& codeFile) {
+    // 生成数据文件
+    std::ofstream dataOut(dataFile, std::ios::binary);
+    if (!dataOut) return false;
+
+    int count = encoder.size();
+    dataOut.write(reinterpret_cast<const char*>(&count), sizeof(count));
+
+    for (int i = 0; i < count; ++i) {
+        std::string hanzi = encoder.decode(i);
+        int len = hanzi.size();
+        dataOut.write(reinterpret_cast<const char*>(&len), sizeof(len));
+        dataOut.write(hanzi.data(), len);
+    }
+    dataOut.close();
+
+    // 生成编码文件
+    std::ofstream codeOut(codeFile, std::ios::binary);
+    if (!codeOut) return false;
+
+    codeOut.write(reinterpret_cast<const char*>(&count), sizeof(count));
+    for (int i = 0; i < count; ++i) {
+        std::string hanzi = encoder.decode(i);
+        int len = hanzi.size();
+        codeOut.write(reinterpret_cast<const char*>(&len), sizeof(len));
+        codeOut.write(hanzi.data(), len);
+        codeOut.write(reinterpret_cast<const char*>(&i), sizeof(i));
+    }
+    codeOut.close();
+
+    return true;
+}
+
+// loadFromDataFiles 实现保持不变
+"
+hanzi_encoder.cpp
+"
+#include "hanzi_encoder.h"
+#include <fstream>
+#include <iostream>
+#include <cctype>
+#include <algorithm>
+
+void HanziEncoder::clear() {
+    hanziToId.clear();
+    idToHanzi.clear();
+}
+
+bool HanziEncoder::loadFromFile(const std::string& filename) {
+    clear();
+    std::ifstream infile(filename);
+    if (!infile) {
+        std::cerr << "无法打开文件: " << filename << std::endl;
+        return false;
+    }
+
+    std::string line;
+    int totalAdded = 0;
+    int lineNumber = 0;
+
+    while (std::getline(infile, line)) {
+        lineNumber++;
+        if (line.empty()) continue;
+
+        // 提取汉字部分（跳过拼音）
+        size_t pos = line.find(':');
+        if (pos == std::string::npos) continue;
+
+        std::string hanziBlock = line.substr(pos + 1);
+
+        // 移除所有空格和星号
+        hanziBlock.erase(std::remove_if(hanziBlock.begin(), hanziBlock.end(),
+                                        [](char c) { return std::isspace(static_cast<unsigned char>(c)) || c == '*'; }),
+                         hanziBlock.end());
+
+        // 处理连续UTF-8字符
+        for (size_t i = 0; i < hanziBlock.size();) {
+            int len = 0;
+            unsigned char c = static_cast<unsigned char>(hanziBlock[i]);
+
+            if (c < 0x80) {
+                len = 1;  // ASCII字符
+            } else if ((c & 0xE0) == 0xC0) {
+                len = 2;  // 2字节UTF-8
+            } else if ((c & 0xF0) == 0xE0) {
+                len = 3;  // 3字节UTF-8（大多数汉字）
+            } else if ((c & 0xF8) == 0xF0) {
+                len = 4;  // 4字节UTF-8
+            } else {
+                i++;  // 跳过无效字节
+                continue;
+            }
+
+            if (i + len > hanziBlock.size()) break;
+
+            std::string hanzi = hanziBlock.substr(i, len);
+            i += len;
+
+            // 添加到编码器
+            if (hanziToId.find(hanzi) == hanziToId.end()) {
+                hanziToId[hanzi] = idToHanzi.size();
+                idToHanzi.push_back(hanzi);
+                totalAdded++;
+            }
+        }
+    }
+
+    std::cout << "成功加载 " << totalAdded << " 个汉字\n";
+    return true;
+}
+
+int HanziEncoder::encode(const std::string& hanzi) const {
+    auto it = hanziToId.find(hanzi);
+    return (it != hanziToId.end()) ? it->second : -1;
+}
+
+std::string HanziEncoder::decode(int code) const {
+    return (code >= 0 && code < static_cast<int>(idToHanzi.size())) ? idToHanzi[code] : "";
+}
+
+int HanziEncoder::size() const {
+    return static_cast<int>(idToHanzi.size());
+}
+"
+hanzi_encoder.h
+"
+#ifndef AI3700_HANZI_ENCODER_H
+#define AI3700_HANZI_ENCODER_H
+
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+class HanziEncoder {
+public:
+    bool loadFromFile(const std::string& filename);
+    int encode(const std::string& hanzi) const;
+    std::string decode(int code) const;
+    int size() const;
+    void clear();
+
+private:
+    std::unordered_map<std::string, int> hanziToId;
+    std::vector<std::string> idToHanzi;
+};
+
+#endif
+"
+matrix.cpp
+"
+//
+// Created by bm on 25-7-23.
+//
+#include "matrix.h"
+#include <cstdlib>
+#include <cmath>
+
+Matrix::Matrix(int rows, int cols, bool random) : rows(rows), cols(cols) {
+    data.resize(rows, std::vector<double>(cols, 0.0));
+    if (random) randomize();
+}
+
+Matrix::Matrix(const std::vector<std::vector<double>>& initData)
+        : data(initData), rows(initData.size()), cols(initData[0].size()) {}
+
+Matrix Matrix::operator+(const Matrix& other) const {
+    if (rows != other.rows || cols != other.cols) {
+        std::cerr << "矩阵加法维度不匹配\n";
+        return Matrix();
+    }
+    Matrix result(rows, cols);
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            result.data[i][j] = data[i][j] + other.data[i][j];
+    return result;
+}
+
+Matrix Matrix::operator-(const Matrix& other) const {
+    if (rows != other.rows || cols != other.cols) {
+        std::cerr << "矩阵减法维度不匹配\n";
+        return Matrix();
+    }
+    Matrix result(rows, cols);
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            result.data[i][j] = data[i][j] - other.data[i][j];
+    return result;
+}
+
+Matrix Matrix::operator*(const Matrix& other) const {
+    // 严格检查维度匹配
+    if (cols != other.rows) {
+        std::cerr << "致命错误：矩阵乘法维度不匹配 (" << rows << "x" << cols
+                  << ") * (" << other.rows << "x" << other.cols << ")\n";
+        std::exit(1); // 直接退出，避免后续错误
+    }
+    Matrix result(rows, other.cols);
+    for (int i = 0; i < rows; i++) {
+        for (int k = 0; k < cols; k++) {
+            if (data[i][k] == 0) continue;
+            for (int j = 0; j < other.cols; j++) {
+                result.data[i][j] += data[i][k] * other.data[k][j];
+            }
+        }
+    }
+    return result;
+}
+
+Matrix Matrix::operator*(double scalar) const {
+    Matrix result(rows, cols);
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            result.data[i][j] = data[i][j] * scalar;
+    return result;
+}
+
+Matrix Matrix::transpose() const {
+    Matrix result(cols, rows);
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            result.data[j][i] = data[i][j];
+        }
+    }
+//     调试：验证转置后的维度
+     std::cout << "转置前: " << rows << "x" << cols
+               << " → 转置后: " << result.rows << "x" << result.cols << "\n";
+    return result;
+}
+
+Matrix Matrix::sigmoid(const Matrix& m) {
+    Matrix result(m.rows, m.cols);
+    for (int i = 0; i < m.rows; i++)
+        for (int j = 0; j < m.cols; j++)
+            result.data[i][j] = 1.0 / (1.0 + exp(-m.data[i][j]));
+    return result;
+}
+
+Matrix Matrix::tanh(const Matrix& m) {
+    Matrix result(m.rows, m.cols);
+    for (int i = 0; i < m.rows; i++)
+        for (int j = 0; j < m.cols; j++)
+            result.data[i][j] = std::tanh(m.data[i][j]);
+    return result;
+}
+
+Matrix Matrix::tanhDerivative(const Matrix& m) {
+    Matrix result(m.rows, m.cols);
+    for (int i = 0; i < m.rows; i++)
+        for (int j = 0; j < m.cols; j++) {
+            double t = std::tanh(m.data[i][j]);
+            result.data[i][j] = 1 - t * t;
+        }
+    return result;
+}
+
+void Matrix::randomize(double min, double max) {
+    for (int i = 0; i < rows; i++)
+        for (int j = 0; j < cols; j++)
+            data[i][j] = min + (max - min) * ((double)rand() / RAND_MAX);
+}
+"
+matrix.h
+"
+//
+// Created by bm on 25-7-23.
+//
+
+#ifndef AI3700_MATRIX_H
+#define AI3700_MATRIX_H
+
+#include <vector>
+#include <iostream>
+
+class Matrix {
+public:
+    std::vector<std::vector<double>> data;
+    int rows;
+    int cols;
+
+    Matrix() : rows(0), cols(0) {}
+    Matrix(int rows, int cols, bool random = false);
+    Matrix(const std::vector<std::vector<double>>& initData);
+
+    Matrix operator+(const Matrix& other) const;
+    Matrix operator-(const Matrix& other) const;
+    Matrix operator*(const Matrix& other) const;
+    Matrix operator*(double scalar) const;
+    Matrix transpose() const;
+
+    static Matrix sigmoid(const Matrix& m);
+    static Matrix tanh(const Matrix& m);
+    static Matrix tanhDerivative(const Matrix& m);
+
+    void randomize(double min = -0.5, double max = 0.5);
+};
+
+
+#endif //AI3700_MATRIX_H
+"
+rnn_model.cpp
+"
+//
+// Created by bm on 25-7-23.
+//
+#include "rnn_model.h"
+#include <fstream>
+#include <cmath>
+#include <iostream>
+
+RNNModel::RNNModel(int vocabSize, int hiddenSize, int layers)
+        : vocabSize(vocabSize), hiddenSize(hiddenSize), layers(layers) {
+    // 初始化权重矩阵（确保维度正确）
+    Wxh = Matrix(hiddenSize, vocabSize, true);  // 输入→隐藏: [h x v]
+    Whh.resize(layers, Matrix(hiddenSize, hiddenSize, true));  // 隐藏→隐藏: [h x h]
+    Why = Matrix(vocabSize, hiddenSize, true);  // 隐藏→输出: [v x h]
+    bh.resize(layers, Matrix(hiddenSize, 1, true));  // 隐藏层偏置: [h x 1]
+    by = Matrix(vocabSize, 1, true);  // 输出层偏置: [v x 1]
+}
+
+RNNModel::ForwardCache RNNModel::forward(const std::vector<int>& inputs) {
+    ForwardCache cache(layers, hiddenSize, vocabSize);
+
+    for (size_t t = 0; t < inputs.size(); t++) {
+        // 输入层独热编码 [v x 1]
+        int idx = inputs[t];
+        if (idx < 0 || idx >= vocabSize) {
+            std::cerr << "无效汉字索引: " << idx << "\n";
+            std::exit(1);
+        }
+        Matrix x(vocabSize, 1);
+        x.data[idx][0] = 1.0;
+
+        // 第一层计算 [h x 1] = [h x v] * [v x 1] + [h x h] * [h x 1] + [h x 1]
+        Matrix h1 = Wxh * x + Whh[0] * cache.h[0] + bh[0];
+        cache.h[0] = Matrix::tanh(h1);
+
+        // 深层计算（仅1层时不执行）
+        for (int l = 1; l < layers; l++) {
+            Matrix hl = Whh[l] * cache.h[l-1] + bh[l];
+            cache.h[l] = Matrix::tanh(hl);
+        }
+
+        // 输出层计算 [v x 1] = [v x h] * [h x 1] + [v x 1]
+        cache.y = Why * cache.h[layers-1] + by;
+    }
+    return cache;
+}
+
+void RNNModel::train(const std::vector<int>& sequence, double learningRate) {
+    if (sequence.size() < 2) return;
+    std::vector<int> inputs(sequence.begin(), sequence.end() - 1);
+    std::vector<int> targets(sequence.begin() + 1, sequence.end());
+
+    auto cache = forward(inputs);
+    int lastTarget = targets.back();
+    if (lastTarget < 0 || lastTarget >= vocabSize) return;
+
+    // 输出误差 [v x 1]
+    Matrix dy(vocabSize, 1);
+    for (int i = 0; i < vocabSize; i++) {
+        dy.data[i][0] = cache.y.data[i][0] - (i == lastTarget ? 1.0 : 0.0);
+    }
+
+    // 最后一层隐藏层误差 [h x 1] = [h x v] * [v x 1]（Why转置后是[h x v]）
+    std::vector<Matrix> dh(layers);
+    dh[layers-1] = Why.transpose() * dy;
+    dh[layers-1] = dh[layers-1] * Matrix::tanhDerivative(cache.h[layers-1]);
+
+    // 深层误差反向传播（仅1层时不执行）
+    for (int l = layers-2; l >= 0; l--) {
+        dh[l] = Whh[l+1].transpose() * dh[l+1];
+        dh[l] = dh[l] * Matrix::tanhDerivative(cache.h[l]);
+    }
+
+    // 更新输出层权重 [v x h] = [v x h] - [v x 1] * [1 x h] * lr
+    Matrix why_grad = dy * cache.h[layers-1].transpose();  // 关键修复：使用转置
+    Why = Why - why_grad * learningRate;
+    by = by - dy * learningRate;
+
+    // 更新第一层输入权重 [h x v] = [h x v] - [h x 1] * [1 x v] * lr
+    int lastInput = inputs.back();
+    Matrix x(vocabSize, 1);
+    x.data[lastInput][0] = 1.0;
+    Matrix wxh_grad = dh[0] * x.transpose();  // 关键修复：使用转置
+    Wxh = Wxh - wxh_grad * learningRate;
+
+    // 更新隐藏层权重 [h x h] = [h x h] - [h x 1] * [1 x h] * lr
+    for (int l = 0; l < layers; l++) {
+        Matrix h_prev = (l == 0) ? cache.h[0] : cache.h[l-1];
+        Matrix whh_grad = dh[l] * h_prev.transpose();  // 关键修复：使用转置
+        Whh[l] = Whh[l] - whh_grad * learningRate;
+        bh[l] = bh[l] - dh[l] * learningRate;
+    }
+}
+
+int RNNModel::predict(const std::vector<int>& inputSeq, bool random) {
+    auto cache = forward(inputSeq);
+    if (random) {
+        double sum = 0;
+        for (int i = 0; i < vocabSize; i++)
+            sum += exp(cache.y.data[i][0]);
+        double r = (double)rand() / RAND_MAX;
+        double accum = 0;
+        for (int i = 0; i < vocabSize; i++) {
+            accum += exp(cache.y.data[i][0]) / sum;
+            if (accum >= r) return i;
+        }
+    }
+    int maxIdx = 0;
+    double maxVal = cache.y.data[0][0];
+    for (int i = 1; i < vocabSize; i++) {
+        if (cache.y.data[i][0] > maxVal) {
+            maxVal = cache.y.data[i][0];
+            maxIdx = i;
+        }
+    }
+    return maxIdx;
+}
+
+void RNNModel::selfLearn(int iterations, int seqLen, double lr) {
+    for (int i = 0; i < iterations; i++) {
+        std::vector<int> seq;
+        for (int j = 0; j < seqLen; j++)
+            seq.push_back(rand() % vocabSize);
+        train(seq, lr);
+        if (i % 5000 == 0)
+            printf("迭代 %d/%d\n", i, iterations);
+    }
+}
+
+bool RNNModel::save(const std::string& filename) {
+    std::ofstream fout(filename, std::ios::binary);
+    if (!fout) return false;
+
+    fout.write((char*)&vocabSize, sizeof(vocabSize));
+    fout.write((char*)&hiddenSize, sizeof(hiddenSize));
+    fout.write((char*)&layers, sizeof(layers));
+
+    auto saveMatrix = [&](const Matrix& m) {
+        fout.write((char*)&m.rows, sizeof(m.rows));
+        fout.write((char*)&m.cols, sizeof(m.cols));
+        for (const auto& row : m.data)
+            fout.write((char*)row.data(), row.size() * sizeof(double));
+    };
+
+    saveMatrix(Wxh);
+    for (const auto& m : Whh) saveMatrix(m);
+    saveMatrix(Why);
+    for (const auto& m : bh) saveMatrix(m);
+    saveMatrix(by);
+
+    return true;
+}
+
+bool RNNModel::load(const std::string& filename) {
+    std::ifstream fin(filename, std::ios::binary);
+    if (!fin) return false;
+
+    fin.read((char*)&vocabSize, sizeof(vocabSize));
+    fin.read((char*)&hiddenSize, sizeof(hiddenSize));
+    fin.read((char*)&layers, sizeof(layers));
+
+    auto loadMatrix = [&](Matrix& m) {
+        int rows, cols;
+        fin.read((char*)&rows, sizeof(rows));
+        fin.read((char*)&cols, sizeof(cols));
+        m = Matrix(rows, cols);
+        for (int i = 0; i < rows; i++) {
+            m.data[i].resize(cols);
+            fin.read((char*)m.data[i].data(), cols * sizeof(double));
+        }
+    };
+
+    loadMatrix(Wxh);
+    Whh.resize(layers);
+    for (int i = 0; i < layers; i++) loadMatrix(Whh[i]);
+    loadMatrix(Why);
+    bh.resize(layers);
+    for (int i = 0; i < layers; i++) loadMatrix(bh[i]);
+    loadMatrix(by);
+
+    return true;
+}
+"
+rnn_model.h
+"
+//
+// Created by bm on 25-7-23.
+//
+
+#ifndef AI3700_RNN_MODEL_H
+#define AI3700_RNN_MODEL_H
+
+#include "matrix.h"
+#include <vector>
+#include <string>
+
+class RNNModel {
+public:
+    RNNModel(int vocabSize, int hiddenSize, int layers = 2);
+
+    void train(const std::vector<int>& sequence, double learningRate);
+    int predict(const std::vector<int>& inputSeq, bool random = false);
+    bool save(const std::string& filename);
+    bool load(const std::string& filename);
+    void selfLearn(int iterations, int seqLen, double lr);
+
+private:
+    int vocabSize;  // 汉字总数
+    int hiddenSize; // 隐藏层大小
+    int layers;     // 层数
+
+    // 权重矩阵定义：
+    // - 仅第一层使用Wxh（输入→隐藏）
+    // - 所有层都使用Whh（隐藏→隐藏）
+    Matrix Wxh;       // 第一层：输入→隐藏 [hiddenSize x vocabSize]
+    std::vector<Matrix> Whh;  // 所有层：隐藏→隐藏 [hiddenSize x hiddenSize]
+    Matrix Why;       // 输出层：隐藏→输出 [vocabSize x hiddenSize]
+    std::vector<Matrix> bh;   // 所有层：隐藏层偏置 [hiddenSize x 1]
+    Matrix by;        // 输出层：偏置 [vocabSize x 1]
+
+    struct ForwardCache {
+        std::vector<Matrix> h;  // 各层隐藏状态 [hiddenSize x 1]
+        Matrix y;               // 输出 [vocabSize x 1]
+        ForwardCache(int layers, int hiddenSize, int vocabSize) {
+            h.resize(layers, Matrix(hiddenSize, 1));
+            y = Matrix(vocabSize, 1);
+        }
+    };
+
+    ForwardCache forward(const std::vector<int>& inputs);
+};
+
+
+#endif //AI3700_RNN_MODEL_H
+
+"
+start_model.cpp
+"
+//
+// Created by bm on 25-7-23.
+//
+
+// start_model.cpp
+#include "start_model.h"
+#include <vector>
+#include <string>
+
+StartModel::StartModel(HanziEncoder& encoder, int hiddenSize, int layers)
+        : encoder(encoder), model(encoder.size(), hiddenSize, layers) {}
+
+bool StartModel::loadModel(const std::string& path) {
+    return model.load(path);
+}
+
+bool StartModel::saveModel(const std::string& path) {
+    return model.save(path);
+}
+
+void StartModel::train(int iterations, double lr) {
+    model.selfLearn(iterations, 8, lr);  // 短序列训练，避免内存占用过高
+}
+
+// 字符串转编码序列（处理UTF-8）
+std::vector<int> StartModel::strToSeq(const std::string& input) {
+    std::vector<int> seq;
+    for (size_t i = 0; i < input.size();) {
+        unsigned char c = (unsigned char)input[i];
+        size_t len = 1;
+        if ((c & 0xF0) == 0xE0) len = 3;  // 汉字为3字节UTF-8
+        else if ((c & 0xE0) == 0xC0) len = 2;
+        else if (c >= 0x80) { i++; continue; }  // 跳过无效字符
+
+        std::string hanzi = input.substr(i, len);
+        i += len;
+        int code = encoder.encode(hanzi);
+        if (code != -1) seq.push_back(code);
+    }
+    return seq;
+}
+
+// 编码序列转字符串
+std::string StartModel::seqToStr(const std::vector<int>& seq) {
+    std::string s;
+    for (int code : seq) s += encoder.decode(code);
+    return s;
+}
+
+// 生成回答
+std::string StartModel::generateResponse(const std::string& input, int length) {
+    std::vector<int> inputSeq = strToSeq(input);
+    if (inputSeq.empty()) return "未识别到有效汉字";
+
+    std::vector<int> outputSeq = inputSeq;
+    for (int i = 0; i < length; i++) {
+        // 基于最后3个字符预测，增强上下文关联
+        std::vector<int> context = outputSeq;
+        if (context.size() > 3)
+            context = std::vector<int>(context.end() - 3, context.end());
+        int next = model.predict(context, true);
+        outputSeq.push_back(next);
+    }
+
+    return seqToStr(outputSeq);
+}
+"
+start_model.h
+"
+//
+// Created by bm on 25-7-23.
+//
+
+#ifndef AI3700_START_MODEL_H
+#define AI3700_START_MODEL_H
+
+#include "rnn_model.h"
+#include "hanzi_encoder.h"
+#include <string>
+
+class StartModel {
+public:
+    StartModel(HanziEncoder& encoder, int hiddenSize = 64, int layers = 2);
+    bool loadModel(const std::string& path);
+    bool saveModel(const std::string& path);
+    void train(int iterations = 20000, double lr = 0.001);
+    std::string generateResponse(const std::string& input, int length = 15);
+
+private:
+    HanziEncoder& encoder;
+    RNNModel model;
+    std::vector<int> strToSeq(const std::string& input);
+    std::string seqToStr(const std::vector<int>& seq);
+};
+
+#endif //AI3700_START_MODEL_H
+“
+main.cpp
+"
+#include "hanzi_encoder.h"
+#include "file_utils.h"
+#include "start_model.h"
+#include <iostream>
+#include <sys/stat.h>
+#include <sys/types.h>  // 用于创建目录
+
+// 创建目录（支持多级目录）
+bool createDirectory(const std::string& path) {
+#ifdef _WIN32
+    return CreateDirectoryA(path.c_str(), NULL) != 0;
+#else
+    mode_t mode = 0755;
+    return mkdir(path.c_str(), mode) == 0;
+#endif
+}
+
+bool fileExists(const std::string& path) {
+    struct stat buffer;
+    return (stat(path.c_str(), &buffer) == 0);
+}
+
+int main() {
+    HanziEncoder encoder;
+
+    std::cout << "📖 加载汉字库...\n";
+    if (!encoder.loadFromFile("hanzi.txt")) {
+        std::cerr << "❌ 汉字库加载失败\n";
+        return 1;
+    }
+    std::cout << "✅ 加载 " << encoder.size() << " 个汉字\n";
+
+    // 确保模型目录存在
+    std::string modelDir = "model";
+    if (!fileExists(modelDir)) {
+        std::cout << "📂 创建模型目录...\n";
+        if (!createDirectory(modelDir)) {
+            std::cerr << "❌ 无法创建模型目录: " << modelDir << "\n";
+            return 1;
+        }
+    }
+
+    StartModel model(encoder, 1, 4);
+    std::string modelPath = modelDir + "/model.bin";
+
+    if (!fileExists(modelPath)) {
+        std::cout << "\n⏳ 首次运行，开始训练模型...\n";
+        model.train(5000, 0.001);
+
+        std::cout << "💾 保存模型...\n";
+        if (!model.saveModel(modelPath)) {
+            std::cerr << "❌ 模型保存失败！请检查目录权限\n";
+            // 尝试保存到当前目录作为备选
+            if (model.saveModel("model.bin")) {
+                std::cout << "⚠️ 已备选保存到当前目录: model.bin\n";
+            } else {
+                std::cerr << "❌ 所有保存路径均失败\n";
+                return 1;
+            }
+        } else {
+            std::cout << "✅ 模型保存至 " << modelPath << "\n";
+        }
+    } else {
+        std::cout << "\n📂 加载已有模型...\n";
+        if (!model.loadModel(modelPath)) {
+            std::cerr << "❌ 模型加载失败\n";
+            return 1;
+        }
+    }
+
+    std::cout << "\n💬 模型就绪，输入q退出\n";
+    std::string input;
+    while (true) {
+        std::cout << "你: ";
+        std::getline(std::cin, input);
+        if (input == "q") break;
+        std::string response = model.generateResponse(input, 10);
+        std::cout << "AI: " << response << "\n\n";
+    }
+
+    return 0;
+}
+
+"
